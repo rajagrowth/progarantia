@@ -1,0 +1,23 @@
+PRÓ GARANTIA — Site institucional
+====================================
+
+Estrutura de pastas:
+
+  pages/        Todas as páginas HTML (abra pages/index.html)
+  components/   Componentes React/JSX (cabeçalho, seções, páginas)
+  styles/       Folha de estilos (styles.css — todas as cores e tipografia)
+  assets/       Imagens e logotipo
+
+Páginas:
+  pages/index.html         Home
+  pages/quem-somos.html    Quem Somos
+  pages/servicos.html      Serviços
+  pages/diferenciais.html  Diferenciais
+  pages/duvidas.html       Dúvidas Frequentes
+  pages/contato.html       Contato
+  pages/boleto-2via.html   2ª Via de Boleto (simulação)
+
+Para visualizar: abra pages/index.html em um navegador
+(de preferência via um servidor local — ex.: "npx serve" ou
+a extensão Live Server do VS Code — pois os componentes JSX
+são carregados dinamicamente).
