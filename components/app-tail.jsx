@@ -10,21 +10,21 @@ function HowItWorks() {
       n: '01',
       t: 'Contato e Proposta',
       d: 'Analisamos o perfil do condomínio e elaboramos uma proposta ideal para sua realidade.',
-      img: '../assets/handshake.jpg',
+      img: 'assets/handshake.jpg',
       alt: 'Reunião de apresentação e proposta',
     },
     {
       n: '02',
       t: 'Emissão dos Boletos',
       d: 'Assumimos a confecção e distribuição dos boletos — físicos ou digitais — para todos os condôminos.',
-      img: '../assets/aerial-residential.jpg',
+      img: 'assets/aerial-residential.jpg',
       alt: 'Vista aérea de condomínios',
     },
     {
       n: '03',
       t: 'Repasse Garantido',
       d: 'Até o 3º dia útil, 100% da receita é repassada ao condomínio — independente de quem pagou.',
-      img: '../assets/facade.jpg',
+      img: 'assets/facade.jpg',
       alt: 'Fachada de edifício',
     },
   ];
@@ -137,7 +137,7 @@ function Offices() {
         <div className="offices-grid">
           <div className="office-card reveal">
             <div className="office-photo">
-              <img className="img-ph" src="../assets/city-night.jpg" alt="Curitiba à noite" />
+              <img className="img-ph" src="assets/city-night.jpg" alt="Curitiba à noite" />
               <span className="state-badge">Paraná</span>
               <div className="city">Curitiba</div>
             </div>
@@ -162,7 +162,7 @@ function Offices() {
           </div>
           <div className="office-card reveal">
             <div className="office-photo">
-              <img className="img-ph" src="../assets/campinas-aerial.jpg" alt="Vista aérea de Joinville" />
+              <img className="img-ph" src="assets/campinas-aerial.jpg" alt="Vista aérea de Joinville" />
               <span className="state-badge">Santa Catarina</span>
               <div className="city">Joinville</div>
             </div>
@@ -202,7 +202,7 @@ function Offices() {
 function CTAFinal() {
   return (
     <section className="cta-final">
-      <img className="bg" src="../assets/glass-building.jpg" alt="" />
+      <img className="bg" src="assets/glass-building.jpg" alt="" />
       <div className="container">
         <div className="section-label" style={{ color: 'var(--gold-light)', justifyContent: 'center', display: 'inline-flex' }}>
           Pronto para começar?

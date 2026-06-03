@@ -128,7 +128,7 @@ function QuemSomosPage() {
         eyebrow="QUEM SOMOS"
         title={<>Solidez e parceria há <em>mais de 15 anos</em></>}
         lead="Especialistas em antecipação garantida de receitas condominiais, atendendo o Paraná, Santa Catarina e Espírito Santo com pontualidade e cuidado."
-        bg="../assets/aerial-cityscape.jpg"
+        bg="assets/aerial-cityscape.jpg"
       />
       <About />
       <Values />
@@ -149,7 +149,7 @@ function ServicosPage() {
         eyebrow="O QUE FAZEMOS"
         title={<>Uma solução completa para o <em>condomínio</em></>}
         lead="Da antecipação garantida à cobrança presencial, assumimos toda a operação financeira para que síndicos e administradoras foquem na gestão."
-        bg="../assets/glass-building.jpg"
+        bg="assets/glass-building.jpg"
       />
       <Services />
       <HowItWorks />
@@ -170,7 +170,7 @@ function DiferenciaisPage() {
         eyebrow="POR QUE NOS ESCOLHER"
         title={<>O que nos torna <em>diferentes</em></>}
         lead="Mais que uma garantidora, somos um parceiro estratégico que une solidez financeira, experiência operacional e cuidado próximo com cada condomínio."
-        bg="../assets/facade.jpg"
+        bg="assets/facade.jpg"
       />
       <Differentials />
       <StatsBand />
@@ -190,7 +190,7 @@ function DuvidasPage() {
         eyebrow="PERGUNTAS FREQUENTES"
         title={<>Tudo o que você <em>precisa saber</em></>}
         lead="Respostas diretas para as perguntas mais comuns de síndicos e administradoras que avaliam nossa parceria."
-        bg="../assets/meeting.jpg"
+        bg="assets/meeting.jpg"
       />
       <FAQ />
       <BoletoStrip />
@@ -210,7 +210,7 @@ function ContatoPage() {
         eyebrow="FALE CONOSCO"
         title={<>Atendimento próximo e <em>presencial</em></>}
         lead="Estamos em Curitiba e Joinville, prontos para elaborar uma proposta sob medida para o seu condomínio."
-        bg="../assets/city-night.jpg"
+        bg="assets/city-night.jpg"
       />
       <Offices />
       <BoletoStrip />
@@ -303,7 +303,7 @@ function BoletoForm() {
               <div className="bc-result">
                 <div className="boleto-doc">
                   <div className="bd-top">
-                    <img src="../assets/progarantia-logo.png" alt="Pró Garantia" className="bd-logo" />
+                    <img src="assets/progarantia-logo.png" alt="Pró Garantia" className="bd-logo" />
                     <span className="bd-status">Em aberto</span>
                   </div>
                   <div className="bd-rows">
@@ -362,7 +362,7 @@ function Boleto2ViaPage() {
         eyebrow="ÁREA DO CONDÔMINO"
         title={<>Sua <em>2ª via</em> em segundos</>}
         lead="Informe seu CPF e senha para emitir a segunda via do seu boleto condominial."
-        bg="../assets/facade.jpg"
+        bg="assets/facade.jpg"
       />
       <BoletoForm />
       <CTAFinal />

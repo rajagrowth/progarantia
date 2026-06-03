@@ -11,7 +11,7 @@ function About() {
       <div className="container">
         <div className="about-grid">
           <div className="about-img reveal">
-            <img className="img-ph" src="../assets/aerial-cityscape.jpg" alt="Vista aérea de condomínios residenciais" />
+            <img className="img-ph" src="assets/aerial-cityscape.jpg" alt="Vista aérea de condomínios residenciais" />
             <div className="badge">
               <div className="y">2010</div>
               <div className="l">Fundada em</div>
@@ -83,7 +83,7 @@ function Services() {
       icon: <Icon.Money/>,
       title: 'Antecipação Garantida',
       desc: '100% da receita condominial até o 3º dia útil, independente dos condôminos.',
-      img: '../assets/handshake.jpg',
+      img: 'assets/handshake.jpg',
       alt: 'Aperto de mãos fechando parceria',
       principal: true,
     },
@@ -91,21 +91,21 @@ function Services() {
       icon: <Icon.Clock/>,
       title: 'Cobrança Especializada',
       desc: 'Equipe própria de cobradores, atuação presencial quando necessário e equipe jurídica integrada.',
-      img: '../assets/meeting.jpg',
+      img: 'assets/meeting.jpg',
       alt: 'Reunião de negócios analisando indicadores',
     },
     {
       icon: <Icon.Doc/>,
       title: 'Consultoria Jurídica',
       desc: 'Assessoria jurídica sem custos e sem limite de consultas para síndicos e administradoras.',
-      img: '../assets/facade.jpg',
+      img: 'assets/facade.jpg',
       alt: 'Fachada de edifício corporativo iluminada',
     },
     {
       icon: <Icon.Trend/>,
       title: 'Cashback & Facilidades',
       desc: 'Boletos digitais ou físicos, relatórios mensais, CND gratuita e cashback condominial automático.',
-      img: '../assets/aerial-residential.jpg',
+      img: 'assets/aerial-residential.jpg',
       alt: 'Vista aérea de área residencial arborizada',
     },
   ];
@@ -179,7 +179,7 @@ function Differentials() {
           </div>
           <div className="diff-visual reveal">
             <div className="img-wrap">
-              <img className="img-ph" src="../assets/glass-building.jpg" alt="Edifício corporativo de vidro à noite" />
+              <img className="img-ph" src="assets/glass-building.jpg" alt="Edifício corporativo de vidro à noite" />
             </div>
             <div className="cashback-card">
               <div className="l">Exclusivo Pró Garantia</div>

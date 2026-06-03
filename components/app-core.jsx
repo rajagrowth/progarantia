@@ -85,7 +85,7 @@ const Icon = {
 function LogoMark() {
   return (
     <a href="index.html" className="logo-mark" aria-label="Pró Garantia — Créditos e Cobranças">
-      <img src="../assets/progarantia-logo.png" alt="Pró Garantia — Créditos e Cobranças" className="logo-img" />
+      <img src="assets/progarantia-logo.png" alt="Pró Garantia — Créditos e Cobranças" className="logo-img" />
     </a>
   );
 }
@@ -200,7 +200,7 @@ function Hero() {
           </div>
         </div>
         <div className="hero-right">
-          <img className="img-ph" src="../assets/hero-tower.jpg" alt="Edifício residencial moderno ao entardecer" />
+          <img className="img-ph" src="assets/hero-tower.jpg" alt="Edifício residencial moderno ao entardecer" />
           <div className="hero-badge">
             <div className="y">2010</div>
             <div className="l">Fundada em</div>
