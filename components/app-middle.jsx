@@ -178,16 +178,49 @@ function Differentials() {
             </ul>
           </div>
           <div className="diff-visual reveal">
-            <div className="img-wrap">
-              <img className="img-ph" src="assets/glass-building.jpg" alt="Edifício corporativo de vidro à noite" />
-            </div>
-            <div className="cashback-card">
-              <div className="l">Exclusivo Pró Garantia</div>
-              <h4>Cashback Condominial</h4>
-              <p>
-                Nossa atuação melhora os indicadores de liquidez e você recebe
-                redução automática na taxa de serviços — economia que volta ao condomínio.
-              </p>
+            <div className="diff-highlights">
+              <div className="dh-group">
+                <div className="dh-head">
+                  <span className="dh-diamond">❖</span>
+                  <h4>Taxa Unitária de Boletos</h4>
+                </div>
+                <ul className="dh-list">
+                  <li><span className="check">✓</span><span>Taxa de geração de <strong>boleto digital</strong> pode chegar a <strong>R$ 1,00</strong> unitário.</span></li>
+                  <li><span className="check">✓</span><span>Taxa de geração de <strong>boletos físicos</strong>: <strong>R$ 1,99</strong> unitário.</span></li>
+                  <li><span className="check">✓</span><span>Envios de boletos: físico ou digital — por e-mail, WhatsApp ou direto em nosso site.</span></li>
+                </ul>
+              </div>
+              <div className="dh-group">
+                <div className="dh-head">
+                  <span className="dh-diamond">❖</span>
+                  <h4>Cashback</h4>
+                  <span className="dh-note">"dinheiro de volta"</span>
+                </div>
+                <ul className="dh-list">
+                  <li><span className="check">✓</span><span>Com a melhora histórica dos indicadores de liquidez dos condôminos, proporcionamos <strong>redução na Taxa de Serviços</strong> (Taxa de Garantidora).</span></li>
+                  <li><span className="check">✓</span><span>O condomínio se beneficia com a redução, que se origina na própria atuação da Pró Garantia.</span></li>
+                  <li><span className="check">✓</span><span>Essa economia pode ser <strong>investida em melhoramentos</strong> no próprio condomínio.</span></li>
+                </ul>
+              </div>
+              <div className="dh-group">
+                <div className="dh-head">
+                  <span className="dh-diamond">❖</span>
+                  <h4>Repasse Mensal</h4>
+                </div>
+                <ul className="dh-list">
+                  <li><span className="check">✓</span><span><strong>100% da receita</strong> do condomínio é repassada até o <strong>3º dia útil</strong> após o vencimento, independente do pagamento pelos condôminos.</span></li>
+                </ul>
+              </div>
+              <div className="dh-group">
+                <div className="dh-head">
+                  <span className="dh-diamond">❖</span>
+                  <h4>Serviços Gratuitos</h4>
+                </div>
+                <ul className="dh-list">
+                  <li><span className="check">✓</span><span><strong>Consultoria Jurídica</strong>: corpo jurídico próprio à disposição dos condomínios, sem limite de consultas.</span></li>
+                  <li><span className="check">✓</span><span><strong>CND</strong>: Certidão Negativa de Débitos.</span></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
