@@ -57,7 +57,7 @@ Depois acesse `http://localhost:3000` (ou a porta indicada).
 
 - HTML + React 18 (via CDN) com JSX transpilado no navegador (Babel Standalone)
 - CSS puro com design tokens (paleta navy + dourado)
-- Fontes: Cormorant Garamond + DM Sans
+- Fontes: Cormorant Garamond, Work Sans, Nunito e Fraunces
 
 ---
 
